@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // Actualizar datos cada 5 segundos
-    const updateInterval = setInterval(actualizarDatos, 5000);
+    const updateInterval = setInterval(actualizarDatos, 500);
 
     // Limpiar intervalo si la página se descarga
     window.addEventListener('beforeunload', function() {
